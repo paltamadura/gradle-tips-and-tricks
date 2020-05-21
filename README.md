@@ -19,7 +19,7 @@ Sources: https://github.com/paltamadura/microtrader/blob/master/build.gradle#L48
 
 ```groovy
 configure(subprojects - project(':microtrader-common')) {
-  ...
+  // ...
 ```
 
 Source: https://github.com/paltamadura/microtrader/blob/master/build.gradle#L74
@@ -32,7 +32,7 @@ def javaProjects = subprojects.findAll {
 }
 
 configure(javaProjects) {
- ...
+ // ...
 ```
 
 Source: https://github.com/Netflix/conductor/blob/master/build.gradle#L37
