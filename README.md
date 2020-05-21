@@ -45,3 +45,10 @@ rootProject.children.each {it.name="conductor-${it.name}"}
 
 Source: https://github.com/Netflix/conductor/blob/master/settings.gradle#L7
 
+## Declaring an Artifact in a Non-Java Module
+
+Bundles a web app into a JAR and a Java service declares it as a runtime dependency. Useful for backend for frontend style full-stack app where the Java service serves a static web app.
+
+https://github.com/xword/java-npm-gradle-integration-example/blob/master/gradle-groovy-dsl/npm-app/build.gradle
+
+Adapted from the above: https://github.com/paltamadura/fullstack-java-react-starter/blob/master/ui/build.gradle
